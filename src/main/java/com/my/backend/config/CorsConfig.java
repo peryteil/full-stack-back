@@ -14,7 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedMethods("GET", "POST")
-                        .allowedOrigins("http://3.36.79.31")// react 서버 주소
+                        .allowedOrigins("http://peryteil-front-app.s3-website.ap-northeast-2.amazonaws.com")// react 서버 주소
                         .allowCredentials(true);
             }
         };
